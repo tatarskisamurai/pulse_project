@@ -1,0 +1,25 @@
+.reviews {
+   padding-bottom: 48px;
+   &__item  {
+      display: flex;
+      margin-top: 60px;
+      gap: 60px;
+   }
+   &__name {
+      color: rgb(13, 13, 13);
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+   }
+   &__subtitle {
+      color: rgb(100, 100, 100);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 22px;
+   }
+   &__descr {
+      margin-top: 6px;
+      color: rgb(13, 13, 13);
+   }
+
+}
