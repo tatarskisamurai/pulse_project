@@ -41,3 +41,16 @@
       justify-content: space-around;
    }
 }
+
+@media screen and (max-width: 575px) {
+   .header {
+      &__phone {
+         font-size: 13px;
+      }
+      &__oficial {
+         span{
+            font-size: 14px;
+         }
+      }
+   }
+}

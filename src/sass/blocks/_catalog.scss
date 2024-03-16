@@ -7,6 +7,7 @@
       gap: 10px;
       justify-content: center;
       margin-bottom: 0;
+      padding-left: 0;
    }
    &__tab {
       text-transform: uppercase;
@@ -159,6 +160,15 @@
                top: 8px;
             }
          }
+      }
+   }
+}
+
+
+@media screen and (max-width: 991px) {
+   .catalog {
+      &__tab {
+         width: 200px;
       }
    }
 }
