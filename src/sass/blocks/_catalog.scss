@@ -172,3 +172,11 @@
       }
    }
 }
+
+@media screen and (max-width: 767px) {
+   .catalog {
+      &__tab {
+         width: 164px;
+      }
+   }
+}
