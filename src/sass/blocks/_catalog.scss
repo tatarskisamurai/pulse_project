@@ -180,3 +180,21 @@
       }
    }
 }
+
+@media screen and (max-width: 576px){
+   .catalog {
+      &__tabs {
+         flex-direction: column;
+         align-items: center;
+         gap: 3px;
+      }
+      &__tab {
+         margin-top: 0;
+         transform: none;
+         width: 100%;
+         div {
+            transform: none;
+         }
+      }
+   }
+}

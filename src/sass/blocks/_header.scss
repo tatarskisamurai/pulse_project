@@ -57,3 +57,10 @@
       }
    }
 }
+
+@media screen and (max-width: 576px){
+   header.header {
+      flex-direction: column;
+      gap: 10px;
+   }
+}

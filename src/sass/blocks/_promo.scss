@@ -64,3 +64,19 @@
       }
    }
 }
+
+@media screen and (max-width: 576px){
+   .promo {
+      &__header{
+         font-size: 25px;
+         line-height: auto;
+      }
+      &__subheader {
+         font-size: 20px;
+         text-align: center;
+      }
+      &__icons {
+         width: auto;
+      }
+   }
+}
