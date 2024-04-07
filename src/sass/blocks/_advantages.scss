@@ -34,4 +34,13 @@
       font-weight: 300;
       line-height: 18px;
    }
+   &__icon {
+      &_animated {
+          animation: heartbeat 1.5s ease infinite;
+          &:hover {
+              cursor: pointer;
+              animation-play-state: paused;
+          }
+      }
+  }
 }
